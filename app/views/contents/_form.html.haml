@@ -1,0 +1,9 @@
+%h5 This is from the form for content
+%br
+  = form_for @content, :url => {:action => form_path}, :html => {:multipart => true, class: 'form span'} do |f|
+    %fieldset
+      = f.text_field :title, placeholder: 'Title'
+      %br
+      = f.text_area :description, placeholder: 'Description', row: '6x10'
+      %br
+      = f.submit 'create', class: 'btn btn-inverse'

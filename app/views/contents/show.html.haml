@@ -1,0 +1,7 @@
+%h3 Contents#show
+%br
+= link_to @content.title, content_path(@content)
+%br
+= @content.description
+%br
+= link_to 'edit', edit_content_path(@content)

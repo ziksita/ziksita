@@ -1,4 +1,9 @@
 class ContentsController < ApplicationController
+
+  def index
+    @contents = Content.all
+  end
+
   def show
     @content = Content.find(params[:id])
   end
@@ -8,8 +13,6 @@ class ContentsController < ApplicationController
   end
 
   def create
-    raise '@content'.inspect
-
     @content = Content.find_or_create_by(title: params[:content][:title], description: params[:content][:description])
     #@content = Content.new
     #@content.title = params[:content][:title]
@@ -25,6 +28,7 @@ class ContentsController < ApplicationController
 
   def update
     @content = Content.find(params[:id])
-    raise @content.inspect
+    @content.update_attributes(title: params[:content][:title], description: params[:content][:description])
+    redirect_to content_path(@content)
   end
 end

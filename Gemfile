@@ -6,7 +6,10 @@ gem 'activerecord-deprecated_finders', github: 'rails/activerecord-deprecated_fi
 
 gem 'sqlite3'
 gem 'mongoid', git: 'https://github.com/mongoid/mongoid.git'
+#gem 'mongoid_slug', '~> 3.0.0'
 gem 'haml-rails', git:'https://github.com/indirect/haml-rails.git'
+gem 'thin'
+
 # Use edge version of sprockets-rails
 gem 'sprockets-rails', github: 'rails/sprockets-rails'
 

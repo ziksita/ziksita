@@ -5,8 +5,8 @@ gem 'arel',      github: 'rails/arel'
 gem 'activerecord-deprecated_finders', github: 'rails/activerecord-deprecated_finders'
 
 gem 'sqlite3'
-gem 'mongoid', git: 'https://github.com/mongoid/mongoid.git'
-#gem 'mongoid_slug', '~> 3.0.0'
+gem 'mongoid', git: 'git://github.com/mongoid/mongoid.git'
+gem 'mongoid_slug', '~> 3.0.0'
 gem 'haml-rails', git:'https://github.com/indirect/haml-rails.git'
 gem 'thin'
 

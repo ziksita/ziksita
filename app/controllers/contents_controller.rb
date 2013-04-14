@@ -13,7 +13,7 @@ class ContentsController < ApplicationController
   end
 
   def create
-    @content = Content.find_or_create_by(title: params[:content][:title], description: params[:content][:description])
+    @content = Content.find_or_create_by(title: params[:content][:title], description: params[:content][:description], tags_array: params[:content][:tags])
     #@content = Content.new
     #@content.title = params[:content][:title]
     #@content.description = params[:content][:description]
@@ -28,7 +28,13 @@ class ContentsController < ApplicationController
 
   def update
     @content = Content.find(params[:id])
-    @content.update_attributes(title: params[:content][:title], description: params[:content][:description])
+    @content.update_attributes(title: params[:content][:title], description: params[:content][:description], tags_array: params[:content][:tags])
     redirect_to content_path(@content)
+  end
+
+  def destroy
+    @content = Content.find(params[:id])
+    @content.delete
+    redirect_to contents_path
   end
 end

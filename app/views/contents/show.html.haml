@@ -5,4 +5,9 @@
     %br
     = @content.description
     %br
-  = link_to 'edit', edit_content_path(@content), class: 'btn btn-primary span2 offset'
+    %br
+      Tags:
+    = @content.tags_array
+    %br
+    = link_to 'edit', edit_content_path(@content), class: 'btn btn-primary span2 offset'
+    = link_to 'delete', content_path(@content), :method => :delete, :confirm => "Are you sure ?", class: 'btn btn-danger span2 offset'

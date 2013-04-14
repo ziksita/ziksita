@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b6492b9-00c5-47e9-bc4e-b23b1328c1ce" name="Default" comment="" />
+    <list default="true" id="2b6492b9-00c5-47e9-bc4e-b23b1328c1ce" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/contents/index.html.haml" afterPath="$PROJECT_DIR$/app/views/contents/index.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/contents/show.html.haml" afterPath="$PROJECT_DIR$/app/views/contents/show.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ziksita.iml" afterPath="$PROJECT_DIR$/.idea/ziksita.iml" />
+    </list>
     <ignored path="ziksita.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/a.dummy" changelist="2b6492b9-00c5-47e9-bc4e-b23b1328c1ce" time="1364646009950" ignored="false" />
@@ -9,7 +16,7 @@
     <file path="/routes.rb" changelist="2b6492b9-00c5-47e9-bc4e-b23b1328c1ce" time="1364657101562" ignored="false" />
     <file path="/index.haml.erb" changelist="2b6492b9-00c5-47e9-bc4e-b23b1328c1ce" time="1364646845722" ignored="false" />
     <file path="$PROJECT_DIR$/log/development.log" changelist="2b6492b9-00c5-47e9-bc4e-b23b1328c1ce" time="1364649065814" ignored="false" />
-    <file path="/index.html.haml" changelist="2b6492b9-00c5-47e9-bc4e-b23b1328c1ce" time="1365096806818" ignored="false" />
+    <file path="/index.html.haml" changelist="2b6492b9-00c5-47e9-bc4e-b23b1328c1ce" time="1365701952239" ignored="false" />
     <file path="/haml-rails.rb" changelist="2b6492b9-00c5-47e9-bc4e-b23b1328c1ce" time="1364648302058" ignored="false" />
     <file path="/Gemfile" changelist="2b6492b9-00c5-47e9-bc4e-b23b1328c1ce" time="1364648535192" ignored="false" />
     <file path="/create.html.haml" changelist="2b6492b9-00c5-47e9-bc4e-b23b1328c1ce" time="1364651249866" ignored="false" />
@@ -20,6 +27,7 @@
     <file path="/show.html.haml" changelist="2b6492b9-00c5-47e9-bc4e-b23b1328c1ce" time="1364733338059" ignored="false" />
     <file path="/edit.html.haml" changelist="2b6492b9-00c5-47e9-bc4e-b23b1328c1ce" time="1364661142671" ignored="false" />
     <file path="/application.html.haml" changelist="2b6492b9-00c5-47e9-bc4e-b23b1328c1ce" time="1364732459886" ignored="false" />
+    <file path="/Dummy.txt" changelist="2b6492b9-00c5-47e9-bc4e-b23b1328c1ce" time="1365933383904" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +47,7 @@
       <file leaf-file-name="application.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0">
+            <state line="37" column="7" selection-start="795" selection-end="795" vertical-scroll-proportion="-21.916666">
               <folding />
             </state>
           </provider>
@@ -48,7 +56,7 @@
       <file leaf-file-name="edit.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/contents/edit.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="17" selection-start="35" selection-end="35" vertical-scroll-proportion="-0.625">
+            <state line="1" column="17" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -63,10 +71,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.haml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="show.html.haml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/contents/show.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="100" selection-start="255" selection-end="255" vertical-scroll-proportion="-5.0">
+            <state line="8" column="47" selection-start="228" selection-end="228" vertical-scroll-proportion="0.21505377">
               <folding />
             </state>
           </provider>
@@ -75,16 +83,16 @@
       <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/contents/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="17" selection-start="102" selection-end="102" vertical-scroll-proportion="-1.875">
+            <state line="5" column="50" selection-start="122" selection-end="122" vertical-scroll-proportion="-3.125">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="content.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="content.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/content.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="14" selection-start="120" selection-end="120" vertical-scroll-proportion="0.12605043">
+            <state line="5" column="14" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -96,6 +104,14 @@
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -110,11 +126,11 @@
         <option value="$PROJECT_DIR$/app/views/contents/_form.html.haml" />
         <option value="$PROJECT_DIR$/app/views/contents/new.html.haml" />
         <option value="$PROJECT_DIR$/app/controllers/contents_controller.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/models/content.rb" />
+        <option value="$PROJECT_DIR$/app/views/contents/index.html.haml" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
         <option value="$PROJECT_DIR$/app/views/contents/show.html.haml" />
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/views/contents/index.html.haml" />
-        <option value="$PROJECT_DIR$/app/models/content.rb" />
       </list>
     </option>
   </component>
@@ -123,7 +139,7 @@
     <option name="width" value="1024" />
     <option name="height" value="744" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -149,8 +165,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -265,16 +279,18 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -581,7 +597,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.261807" sideWeight="0.95679015" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28028747" sideWeight="0.6712963" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293348" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -702,21 +718,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/contents_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="71" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="7" column="71" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/contents/edit.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="17" selection-start="35" selection-end="35" vertical-scroll-proportion="-0.625">
+        <state line="1" column="17" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/content.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="14" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -728,23 +742,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/contents/show.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="100" selection-start="255" selection-end="255" vertical-scroll-proportion="-5.0">
+        <state line="37" column="7" selection-start="795" selection-end="795" vertical-scroll-proportion="-21.916666">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/contents/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="17" selection-start="102" selection-end="102" vertical-scroll-proportion="-1.875">
+        <state line="5" column="50" selection-start="122" selection-end="122" vertical-scroll-proportion="-3.125">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/content.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/contents/show.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="14" selection-start="120" selection-end="120" vertical-scroll-proportion="0.12605043">
+        <state line="8" column="47" selection-start="228" selection-end="228" vertical-scroll-proportion="0.21505377">
           <folding />
         </state>
       </provider>

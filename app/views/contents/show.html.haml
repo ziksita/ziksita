@@ -4,6 +4,6 @@
     %br
     = link_to @content.title, content_path(@content)
     %br
-    = @content.description
+    = truncate(@content.description, :length => 300)
     %br
   = link_to 'edit', edit_content_path(@content), class: 'btn btn-primary span2 offset', remote: true

@@ -8,30 +8,24 @@
   %body
   .container-fluid
     .row-fluid
-      .span12{style: "background-color: 'green';"}
-        = link_to 'Ziksita', root_path
-        %br
+      .span12
+        %div#header
+          = link_to 'Ziksita', root_path, class: 'header'
         %br
         .row-fluid
-          .span2.banner
-            Past Technology
-            %br
-            Future Technology
-            %br
-            Manufacturing
-            %br
-            In News
-            %br
+          .span2
+            #side_nav
+              Past Technology
+              %br
+              Future Technology
+              %br
+              Manufacturing
+              %br
+              In News
+              %br
           .span10
-            Main content
-            %br
-            = link_to 'content', new_content_path
-            %br
-            = yield
+            #main_content
+              = yield
 
-:css
-  .banner{
-    background-color: 'yellow';
-  }
 
 

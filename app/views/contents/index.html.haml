@@ -1,6 +1,9 @@
+= link_to 'Create Content', new_content_path
+%br
+%br
 - @contents.each do |content|
   = link_to content.title, content_path(content)
   %br
-  = content.description
+  = truncate(content.description, :length => 300)
   %br
   %br

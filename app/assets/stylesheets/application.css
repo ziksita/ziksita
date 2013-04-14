@@ -11,3 +11,26 @@
  *= require_self
  *= require_tree .
  */
+
+.header{
+    font-size: 30px;
+    color: yellowgreen;
+}
+
+.header:hover{
+    color: #638421;
+}
+#header{
+    margin-top: 15px;
+    background-color: #4bb1cf;
+    padding: 15px;
+}
+
+#side_nav{
+    background-color: indianred;
+    color: lavenderblush;
+}
+
+#main_content{
+    background-color: lemonchiffon;
+}

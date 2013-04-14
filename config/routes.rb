@@ -49,5 +49,5 @@ Ziksita::Application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-  root 'base#index'
+  root 'contents#index'
 end

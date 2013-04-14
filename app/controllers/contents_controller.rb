@@ -1,7 +1,7 @@
 class ContentsController < ApplicationController
 
   def index
-    @contents = Content.all
+    @contents = Content.all.order_by(:updated_at => :desc).limit(100)
   end
 
   def show

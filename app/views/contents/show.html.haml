@@ -1,9 +1,8 @@
-%h3 Contents#show
 %div.main_content
   %div.content
     %br
     = link_to @content.title, content_path(@content)
     %br
-    = truncate(@content.description, :length => 300)
+    = @content.description
     %br
-  = link_to 'edit', edit_content_path(@content), class: 'btn btn-primary span2 offset', remote: true
+  = link_to 'edit', edit_content_path(@content), class: 'btn btn-primary span2 offset'

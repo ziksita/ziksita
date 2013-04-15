@@ -9,7 +9,6 @@ gem 'mongoid', git: 'git://github.com/mongoid/mongoid.git'
 gem 'mongoid_slug', '~> 3.0.0'
 gem 'haml-rails', git:'https://github.com/indirect/haml-rails.git'
 gem 'thin'
-gem 'mongoid_taggable_with_context'
 
 # Use edge version of sprockets-rails
 gem 'sprockets-rails', github: 'rails/sprockets-rails'
